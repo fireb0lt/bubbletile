@@ -1,0 +1,95 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "IconSettings.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "IconSpotlight.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "57x57",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "57x57",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "Icon@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "spotlightiPad-01.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "spotlightiPad@2x-01.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "72x72",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "72x72",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "iconiPad.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "iconiPad@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

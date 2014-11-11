@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781A8B16197ECC9D00AF4560 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781A8B15197ECC9D00AF4560 /* StartViewController.m */; };
+		781A8B18197F16A700AF4560 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 781A8B17197F16A700AF4560 /* background.png */; };
+		781A8B1E197F7EAE00AF4560 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781A8B1D197F7EAE00AF4560 /* iAd.framework */; };
+		781A8B21197F806700AF4560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781A8B1F197F806700AF4560 /* Main.storyboard */; };
+		781A8B2419807AEF00AF4560 /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781A8B2319807AEF00AF4560 /* EndViewController.m */; };
+		78294236194EA63F00AB12BE /* sharpex.png in Resources */ = {isa = PBXBuildFile; fileRef = 78294235194EA63F00AB12BE /* sharpex.png */; };
+		784B6AE3194F463500722E67 /* BlueExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 784B6AE2194F463500722E67 /* BlueExplosion.sks */; };
+		784EE0D9194395BA0059419E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0D8194395BA0059419E /* Foundation.framework */; };
+		784EE0DB194395BA0059419E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0DA194395BA0059419E /* CoreGraphics.framework */; };
+		784EE0DD194395BA0059419E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0DC194395BA0059419E /* UIKit.framework */; };
+		784EE0DF194395BA0059419E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0DE194395BA0059419E /* SpriteKit.framework */; };
+		784EE0E5194395BA0059419E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 784EE0E3194395BA0059419E /* InfoPlist.strings */; };
+		784EE0E7194395BA0059419E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EE0E6194395BA0059419E /* main.m */; };
+		784EE0EB194395BA0059419E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EE0EA194395BA0059419E /* AppDelegate.m */; };
+		784EE0F1194395BA0059419E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EE0F0194395BA0059419E /* ViewController.m */; };
+		784EE0F4194395BA0059419E /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EE0F3194395BA0059419E /* MyScene.m */; };
+		784EE0FF194395BB0059419E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0FE194395BB0059419E /* XCTest.framework */; };
+		784EE100194395BB0059419E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0D8194395BA0059419E /* Foundation.framework */; };
+		784EE101194395BB0059419E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784EE0DC194395BA0059419E /* UIKit.framework */; };
+		784EE109194395BB0059419E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 784EE107194395BB0059419E /* InfoPlist.strings */; };
+		784EE10B194395BB0059419E /* BubbleTileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784EE10A194395BB0059419E /* BubbleTileTests.m */; };
+		784EE125194396900059419E /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784EE124194396900059419E /* pop.wav */; };
+		786F2142194A101E00D4FD93 /* StartScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 786F2141194A101E00D4FD93 /* StartScreen.png */; };
+		786F214C194E546500D4FD93 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 786F214A194E546500D4FD93 /* Explosion.sks */; };
+		786F214D194E546500D4FD93 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 786F214B194E546500D4FD93 /* spark.png */; };
+		78763313198C43BC003FF49B /* iconiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 78763311198C43BC003FF49B /* iconiPad.png */; };
+		78763314198C43BC003FF49B /* iconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78763312198C43BC003FF49B /* iconiPad@2x.png */; };
+		78763317198C4555003FF49B /* spotlightiPad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 78763315198C4555003FF49B /* spotlightiPad-01.png */; };
+		78763318198C4555003FF49B /* spotlightiPad@2x-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 78763316198C4555003FF49B /* spotlightiPad@2x-01.png */; };
+		788DF7121994041D001E94D8 /* PowerUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 788DF7111994041D001E94D8 /* PowerUp.sks */; };
+		789ED28B197CCD6B0061895A /* bubblepopfinal.wav in Resources */ = {isa = PBXBuildFile; fileRef = 789ED28A197CCD6B0061895A /* bubblepopfinal.wav */; };
+		789ED28D197D79C10061895A /* pop5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 789ED28C197D79C10061895A /* pop5.wav */; };
+		789ED28F197D7A460061895A /* pop6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 789ED28E197D7A460061895A /* pop6.wav */; };
+		789ED292197D7CC70061895A /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 789ED291197D7CC70061895A /* GameOverScene.m */; };
+		789ED294197D89550061895A /* button.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 789ED293197D89550061895A /* button.atlas */; };
+		789ED297197D93CA0061895A /* pop10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 789ED296197D93CA0061895A /* pop10.wav */; };
+		78C1517E196DC7EA000381DC /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C1517D196DC7EA000381DC /* LaunchImage@2x.png */; };
+		78C15180196DC90A000381DC /* LaunchImage3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C1517F196DC90A000381DC /* LaunchImage3@2x.png */; };
+		78C15182196DC915000381DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C15181196DC915000381DC /* Images.xcassets */; };
+		78C15186196DCD06000381DC /* bubble.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78C15185196DCD06000381DC /* bubble.atlas */; };
+		78C15188196E1B09000381DC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C15187196E1B09000381DC /* GameKit.framework */; };
+		78C15191196EE239000381DC /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C15190196EE238000381DC /* GameKitHelper.m */; };
+		78C151DF196EF1B2000381DC /* GameNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C151DE196EF1B2000381DC /* GameNavigationController.m */; };
+		78E39249194F533600246BF8 /* YellowExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78E39248194F533600246BF8 /* YellowExplosion.sks */; };
+		78E3924B194F54D200246BF8 /* RedExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78E3924A194F54D200246BF8 /* RedExplosion.sks */; };
+		78E39256194F777500246BF8 /* explodecanvas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E39255194F777500246BF8 /* explodecanvas@2x.png */; };
+		78E5E9EA195B661A0085C9B9 /* GreenFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78E5E9E9195B661A0085C9B9 /* GreenFire.sks */; };
+		78EC0EE0196DC54900B1BFDC /* IconSpotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EC0EDE196DC54900B1BFDC /* IconSpotlight.png */; };
+		78EC0EE1196DC54900B1BFDC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EC0EDF196DC54900B1BFDC /* Icon@2x.png */; };
+		78EC0EE3196DC59B00B1BFDC /* IconSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EC0EE2196DC59B00B1BFDC /* IconSettings.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784EE102194395BB0059419E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784EE0CD194395BA0059419E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784EE0D4194395BA0059419E;
+			remoteInfo = BubbleTile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781A8B14197ECC9D00AF4560 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		781A8B15197ECC9D00AF4560 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		781A8B17197F16A700AF4560 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		781A8B1D197F7EAE00AF4560 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		781A8B20197F806700AF4560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		781A8B2219807AEF00AF4560 /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndViewController.h; sourceTree = "<group>"; };
+		781A8B2319807AEF00AF4560 /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndViewController.m; sourceTree = "<group>"; };
+		78294235194EA63F00AB12BE /* sharpex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharpex.png; sourceTree = "<group>"; };
+		784B6AE2194F463500722E67 /* BlueExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlueExplosion.sks; sourceTree = "<group>"; };
+		784EE0D5194395BA0059419E /* BubbleTile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784EE0D8194395BA0059419E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		784EE0DA194395BA0059419E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		784EE0DC194395BA0059419E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		784EE0DE194395BA0059419E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		784EE0E2194395BA0059419E /* BubbleTile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTile-Info.plist"; sourceTree = "<group>"; };
+		784EE0E4194395BA0059419E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		784EE0E6194395BA0059419E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		784EE0E8194395BA0059419E /* BubbleTile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleTile-Prefix.pch"; sourceTree = "<group>"; };
+		784EE0E9194395BA0059419E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		784EE0EA194395BA0059419E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		784EE0EF194395BA0059419E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		784EE0F0194395BA0059419E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		784EE0F2194395BA0059419E /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		784EE0F3194395BA0059419E /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		784EE0FD194395BB0059419E /* BubbleTileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784EE0FE194395BB0059419E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		784EE106194395BB0059419E /* BubbleTileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTileTests-Info.plist"; sourceTree = "<group>"; };
+		784EE108194395BB0059419E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		784EE10A194395BB0059419E /* BubbleTileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTileTests.m; sourceTree = "<group>"; };
+		784EE124194396900059419E /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		786F2141194A101E00D4FD93 /* StartScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartScreen.png; sourceTree = "<group>"; };
+		786F214A194E546500D4FD93 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		786F214B194E546500D4FD93 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		78763311198C43BC003FF49B /* iconiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconiPad.png; sourceTree = "<group>"; };
+		78763312198C43BC003FF49B /* iconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconiPad@2x.png"; sourceTree = "<group>"; };
+		78763315198C4555003FF49B /* spotlightiPad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotlightiPad-01.png"; sourceTree = "<group>"; };
+		78763316198C4555003FF49B /* spotlightiPad@2x-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotlightiPad@2x-01.png"; sourceTree = "<group>"; };
+		788DF7111994041D001E94D8 /* PowerUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PowerUp.sks; sourceTree = "<group>"; };
+		789ED28A197CCD6B0061895A /* bubblepopfinal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubblepopfinal.wav; sourceTree = "<group>"; };
+		789ED28C197D79C10061895A /* pop5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop5.wav; sourceTree = "<group>"; };
+		789ED28E197D7A460061895A /* pop6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop6.wav; sourceTree = "<group>"; };
+		789ED290197D7CC70061895A /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		789ED291197D7CC70061895A /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		789ED293197D89550061895A /* button.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = button.atlas; sourceTree = "<group>"; };
+		789ED296197D93CA0061895A /* pop10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop10.wav; sourceTree = "<group>"; };
+		78C1517D196DC7EA000381DC /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		78C1517F196DC90A000381DC /* LaunchImage3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage3@2x.png"; sourceTree = "<group>"; };
+		78C15181196DC915000381DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78C15185196DCD06000381DC /* bubble.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bubble.atlas; sourceTree = "<group>"; };
+		78C15187196E1B09000381DC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		78C1518F196EE238000381DC /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameKitHelper.h; path = ../GameKitHelper.h; sourceTree = "<group>"; };
+		78C15190196EE238000381DC /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameKitHelper.m; path = ../GameKitHelper.m; sourceTree = "<group>"; };
+		78C151DD196EF1B2000381DC /* GameNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameNavigationController.h; path = ../GameNavigationController.h; sourceTree = "<group>"; };
+		78C151DE196EF1B2000381DC /* GameNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameNavigationController.m; path = ../GameNavigationController.m; sourceTree = "<group>"; };
+		78E39248194F533600246BF8 /* YellowExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = YellowExplosion.sks; sourceTree = "<group>"; };
+		78E3924A194F54D200246BF8 /* RedExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedExplosion.sks; sourceTree = "<group>"; };
+		78E39255194F777500246BF8 /* explodecanvas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explodecanvas@2x.png"; sourceTree = "<group>"; };
+		78E5E9E9195B661A0085C9B9 /* GreenFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GreenFire.sks; sourceTree = "<group>"; };
+		78EC0EDE196DC54900B1BFDC /* IconSpotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSpotlight.png; sourceTree = "<group>"; };
+		78EC0EDF196DC54900B1BFDC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		78EC0EE2196DC59B00B1BFDC /* IconSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSettings.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784EE0D2194395BA0059419E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781A8B1E197F7EAE00AF4560 /* iAd.framework in Frameworks */,
+				78C15188196E1B09000381DC /* GameKit.framework in Frameworks */,
+				784EE0DB194395BA0059419E /* CoreGraphics.framework in Frameworks */,
+				784EE0DD194395BA0059419E /* UIKit.framework in Frameworks */,
+				784EE0DF194395BA0059419E /* SpriteKit.framework in Frameworks */,
+				784EE0D9194395BA0059419E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784EE0FA194395BB0059419E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784EE0FF194395BB0059419E /* XCTest.framework in Frameworks */,
+				784EE101194395BB0059419E /* UIKit.framework in Frameworks */,
+				784EE100194395BB0059419E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781A8B1C197F781C00AF4560 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				78763315198C4555003FF49B /* spotlightiPad-01.png */,
+				78763316198C4555003FF49B /* spotlightiPad@2x-01.png */,
+				78763311198C43BC003FF49B /* iconiPad.png */,
+				78763312198C43BC003FF49B /* iconiPad@2x.png */,
+				786F2141194A101E00D4FD93 /* StartScreen.png */,
+				78E39255194F777500246BF8 /* explodecanvas@2x.png */,
+				78C1517D196DC7EA000381DC /* LaunchImage@2x.png */,
+				78C1517F196DC90A000381DC /* LaunchImage3@2x.png */,
+				78EC0EDE196DC54900B1BFDC /* IconSpotlight.png */,
+				78EC0EDF196DC54900B1BFDC /* Icon@2x.png */,
+				78EC0EE2196DC59B00B1BFDC /* IconSettings.png */,
+				789ED28A197CCD6B0061895A /* bubblepopfinal.wav */,
+				789ED28C197D79C10061895A /* pop5.wav */,
+				781A8B17197F16A700AF4560 /* background.png */,
+				789ED28E197D7A460061895A /* pop6.wav */,
+				784EE124194396900059419E /* pop.wav */,
+				789ED296197D93CA0061895A /* pop10.wav */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		784EE0CC194395BA0059419E = {
+			isa = PBXGroup;
+			children = (
+				78E5E9E9195B661A0085C9B9 /* GreenFire.sks */,
+				788DF7111994041D001E94D8 /* PowerUp.sks */,
+				786F214A194E546500D4FD93 /* Explosion.sks */,
+				78E39248194F533600246BF8 /* YellowExplosion.sks */,
+				784B6AE2194F463500722E67 /* BlueExplosion.sks */,
+				78E3924A194F54D200246BF8 /* RedExplosion.sks */,
+				786F214B194E546500D4FD93 /* spark.png */,
+				78294235194EA63F00AB12BE /* sharpex.png */,
+				789ED293197D89550061895A /* button.atlas */,
+				78C15185196DCD06000381DC /* bubble.atlas */,
+				784EE0E0194395BA0059419E /* BubbleTile */,
+				784EE104194395BB0059419E /* BubbleTileTests */,
+				784EE0D7194395BA0059419E /* Frameworks */,
+				784EE0D6194395BA0059419E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		784EE0D6194395BA0059419E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784EE0D5194395BA0059419E /* BubbleTile.app */,
+				784EE0FD194395BB0059419E /* BubbleTileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784EE0D7194395BA0059419E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781A8B1D197F7EAE00AF4560 /* iAd.framework */,
+				78C15187196E1B09000381DC /* GameKit.framework */,
+				784EE0D8194395BA0059419E /* Foundation.framework */,
+				784EE0DA194395BA0059419E /* CoreGraphics.framework */,
+				784EE0DC194395BA0059419E /* UIKit.framework */,
+				784EE0DE194395BA0059419E /* SpriteKit.framework */,
+				784EE0FE194395BB0059419E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		784EE0E0194395BA0059419E /* BubbleTile */ = {
+			isa = PBXGroup;
+			children = (
+				781A8B1F197F806700AF4560 /* Main.storyboard */,
+				784EE0E9194395BA0059419E /* AppDelegate.h */,
+				784EE0EA194395BA0059419E /* AppDelegate.m */,
+				78C1518F196EE238000381DC /* GameKitHelper.h */,
+				78C15190196EE238000381DC /* GameKitHelper.m */,
+				78C151DD196EF1B2000381DC /* GameNavigationController.h */,
+				78C151DE196EF1B2000381DC /* GameNavigationController.m */,
+				781A8B14197ECC9D00AF4560 /* StartViewController.h */,
+				781A8B15197ECC9D00AF4560 /* StartViewController.m */,
+				784EE0EF194395BA0059419E /* ViewController.h */,
+				784EE0F0194395BA0059419E /* ViewController.m */,
+				784EE0F2194395BA0059419E /* MyScene.h */,
+				784EE0F3194395BA0059419E /* MyScene.m */,
+				781A8B2219807AEF00AF4560 /* EndViewController.h */,
+				781A8B2319807AEF00AF4560 /* EndViewController.m */,
+				789ED290197D7CC70061895A /* GameOverScene.h */,
+				789ED291197D7CC70061895A /* GameOverScene.m */,
+				781A8B1C197F781C00AF4560 /* Graphics */,
+				78C15181196DC915000381DC /* Images.xcassets */,
+				784EE0E1194395BA0059419E /* Supporting Files */,
+			);
+			path = BubbleTile;
+			sourceTree = "<group>";
+		};
+		784EE0E1194395BA0059419E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				784EE0E2194395BA0059419E /* BubbleTile-Info.plist */,
+				784EE0E3194395BA0059419E /* InfoPlist.strings */,
+				784EE0E6194395BA0059419E /* main.m */,
+				784EE0E8194395BA0059419E /* BubbleTile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		784EE104194395BB0059419E /* BubbleTileTests */ = {
+			isa = PBXGroup;
+			children = (
+				784EE10A194395BB0059419E /* BubbleTileTests.m */,
+				784EE105194395BB0059419E /* Supporting Files */,
+			);
+			path = BubbleTileTests;
+			sourceTree = "<group>";
+		};
+		784EE105194395BB0059419E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				784EE106194395BB0059419E /* BubbleTileTests-Info.plist */,
+				784EE107194395BB0059419E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784EE0D4194395BA0059419E /* BubbleTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784EE10E194395BB0059419E /* Build configuration list for PBXNativeTarget "BubbleTile" */;
+			buildPhases = (
+				784EE0D1194395BA0059419E /* Sources */,
+				784EE0D2194395BA0059419E /* Frameworks */,
+				784EE0D3194395BA0059419E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleTile;
+			productName = BubbleTile;
+			productReference = 784EE0D5194395BA0059419E /* BubbleTile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		784EE0FC194395BB0059419E /* BubbleTileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784EE111194395BB0059419E /* Build configuration list for PBXNativeTarget "BubbleTileTests" */;
+			buildPhases = (
+				784EE0F9194395BB0059419E /* Sources */,
+				784EE0FA194395BB0059419E /* Frameworks */,
+				784EE0FB194395BB0059419E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784EE103194395BB0059419E /* PBXTargetDependency */,
+			);
+			name = BubbleTileTests;
+			productName = BubbleTileTests;
+			productReference = 784EE0FD194395BB0059419E /* BubbleTileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784EE0CD194395BA0059419E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Isaac;
+				TargetAttributes = {
+					784EE0D4194395BA0059419E = {
+						DevelopmentTeam = V6J49JLW38;
+					};
+					784EE0FC194395BB0059419E = {
+						TestTargetID = 784EE0D4194395BA0059419E;
+					};
+				};
+			};
+			buildConfigurationList = 784EE0D0194395BA0059419E /* Build configuration list for PBXProject "BubbleTile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784EE0CC194395BA0059419E;
+			productRefGroup = 784EE0D6194395BA0059419E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784EE0D4194395BA0059419E /* BubbleTile */,
+				784EE0FC194395BB0059419E /* BubbleTileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784EE0D3194395BA0059419E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E5E9EA195B661A0085C9B9 /* GreenFire.sks in Resources */,
+				781A8B21197F806700AF4560 /* Main.storyboard in Resources */,
+				78763313198C43BC003FF49B /* iconiPad.png in Resources */,
+				78EC0EE1196DC54900B1BFDC /* Icon@2x.png in Resources */,
+				78E3924B194F54D200246BF8 /* RedExplosion.sks in Resources */,
+				789ED28B197CCD6B0061895A /* bubblepopfinal.wav in Resources */,
+				786F214D194E546500D4FD93 /* spark.png in Resources */,
+				789ED297197D93CA0061895A /* pop10.wav in Resources */,
+				781A8B18197F16A700AF4560 /* background.png in Resources */,
+				78294236194EA63F00AB12BE /* sharpex.png in Resources */,
+				784B6AE3194F463500722E67 /* BlueExplosion.sks in Resources */,
+				78E39249194F533600246BF8 /* YellowExplosion.sks in Resources */,
+				786F2142194A101E00D4FD93 /* StartScreen.png in Resources */,
+				78763317198C4555003FF49B /* spotlightiPad-01.png in Resources */,
+				78EC0EE0196DC54900B1BFDC /* IconSpotlight.png in Resources */,
+				78763318198C4555003FF49B /* spotlightiPad@2x-01.png in Resources */,
+				784EE0E5194395BA0059419E /* InfoPlist.strings in Resources */,
+				789ED294197D89550061895A /* button.atlas in Resources */,
+				789ED28F197D7A460061895A /* pop6.wav in Resources */,
+				784EE125194396900059419E /* pop.wav in Resources */,
+				78C1517E196DC7EA000381DC /* LaunchImage@2x.png in Resources */,
+				78EC0EE3196DC59B00B1BFDC /* IconSettings.png in Resources */,
+				788DF7121994041D001E94D8 /* PowerUp.sks in Resources */,
+				786F214C194E546500D4FD93 /* Explosion.sks in Resources */,
+				789ED28D197D79C10061895A /* pop5.wav in Resources */,
+				78763314198C43BC003FF49B /* iconiPad@2x.png in Resources */,
+				78C15182196DC915000381DC /* Images.xcassets in Resources */,
+				78C15180196DC90A000381DC /* LaunchImage3@2x.png in Resources */,
+				78C15186196DCD06000381DC /* bubble.atlas in Resources */,
+				78E39256194F777500246BF8 /* explodecanvas@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784EE0FB194395BB0059419E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784EE109194395BB0059419E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784EE0D1194395BA0059419E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784EE0F4194395BA0059419E /* MyScene.m in Sources */,
+				781A8B2419807AEF00AF4560 /* EndViewController.m in Sources */,
+				784EE0F1194395BA0059419E /* ViewController.m in Sources */,
+				78C151DF196EF1B2000381DC /* GameNavigationController.m in Sources */,
+				781A8B16197ECC9D00AF4560 /* StartViewController.m in Sources */,
+				784EE0EB194395BA0059419E /* AppDelegate.m in Sources */,
+				78C15191196EE239000381DC /* GameKitHelper.m in Sources */,
+				784EE0E7194395BA0059419E /* main.m in Sources */,
+				789ED292197D7CC70061895A /* GameOverScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784EE0F9194395BB0059419E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784EE10B194395BB0059419E /* BubbleTileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784EE103194395BB0059419E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784EE0D4194395BA0059419E /* BubbleTile */;
+			targetProxy = 784EE102194395BB0059419E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		781A8B1F197F806700AF4560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781A8B20197F806700AF4560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784EE0E3194395BA0059419E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784EE0E4194395BA0059419E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		784EE107194395BB0059419E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784EE108194395BB0059419E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7847928B198218330075129A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		7847928C198218330075129A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos7.1]" = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				INFOPLIST_FILE = "BubbleTile/BubbleTile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos7.1;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		7847928D198218330075129A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleTile.app/BubbleTile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				INFOPLIST_FILE = "BubbleTileTests/BubbleTileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		784EE10C194395BB0059419E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		784EE10D194395BB0059419E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784EE10F194395BB0059419E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos7.1]" = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				INFOPLIST_FILE = "BubbleTile/BubbleTile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos7.1;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		784EE110194395BB0059419E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: isaac jo (V6J49JLW38)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos7.1]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				INFOPLIST_FILE = "BubbleTile/BubbleTile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72C0C033-FBA9-4D94-9F34-949BD8E0F882";
+				SDKROOT = iphoneos7.1;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		784EE112194395BB0059419E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleTile.app/BubbleTile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BubbleTileTests/BubbleTileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		784EE113194395BB0059419E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleTile.app/BubbleTile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleTile/BubbleTile-Prefix.pch";
+				INFOPLIST_FILE = "BubbleTileTests/BubbleTileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784EE0D0194395BA0059419E /* Build configuration list for PBXProject "BubbleTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784EE10C194395BB0059419E /* Debug */,
+				784EE10D194395BB0059419E /* Release */,
+				7847928B198218330075129A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784EE10E194395BB0059419E /* Build configuration list for PBXNativeTarget "BubbleTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784EE10F194395BB0059419E /* Debug */,
+				784EE110194395BB0059419E /* Release */,
+				7847928C198218330075129A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784EE111194395BB0059419E /* Build configuration list for PBXNativeTarget "BubbleTileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784EE112194395BB0059419E /* Debug */,
+				784EE113194395BB0059419E /* Release */,
+				7847928D198218330075129A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784EE0CD194395BA0059419E /* Project object */;
+}
