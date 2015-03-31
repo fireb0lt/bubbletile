@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B936D935-C229-4633-BF0B-F2FC5DA7A127</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BubbleTile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CB7B86D7D3CD44DEE3A733DFD16EB184E4E73B5</key>
+		<string>https://github.com/isaacjo/bubbletile</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BubbleTile.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CB7B86D7D3CD44DEE3A733DFD16EB184E4E73B5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/isaacjo/bubbletile</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CB7B86D7D3CD44DEE3A733DFD16EB184E4E73B5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CB7B86D7D3CD44DEE3A733DFD16EB184E4E73B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bubbletile</string>
+		</dict>
+	</array>
+</dict>
+</plist>
